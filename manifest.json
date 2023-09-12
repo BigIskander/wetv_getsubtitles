@@ -1,10 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
+    "name": "WeTV get subtitles",
+    "description": "A simple browser extension to open subtitles page on wetv.vip",
     "version": "1.0",
     "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
+      "default_icon": "WeTV.png"
+    },
+    "permissions": ["activeTab", "scripting", "webRequest"],
+    "host_permissions": [
+      "https://wetv.vip/*",
+      "https://cffaws.wetvinfo.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
     }
   }
