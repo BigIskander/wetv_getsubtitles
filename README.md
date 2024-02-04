@@ -8,8 +8,9 @@ How to install:
 2. Open url <code>chrome://extensions/</code> in browser or in browser menu: Settings -> Extensions
 3. Turn on the "Developer mode" option
 4. "Load unpacked" extension
-5. Select the folder with the extension
-6. Pin down the extension in top meny of browser.
+5. Select the folder with the extension and install it
+6. You can turn off the "Developer mode" option now, extension will continue to work
+7. Pin down the extension in top meny of browser.
 
 How to use: 
 1. go to wetv.vip and open any video you want to watch
