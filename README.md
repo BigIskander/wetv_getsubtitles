@@ -3,14 +3,16 @@ A simple browser extension (for chromium based browsers) to open subtitles page 
 
 Extension was made only for educational purposes.
 
-How to install: 
+How to install, instruction for Google chrome: 
 1. Download and unpack the content of this repository
 2. Open url <code>chrome://extensions/</code> in browser or in browser menu: Settings -> Extensions
-3. Turn on the "Developer mode" option
-4. "Load unpacked" extension
-5. Select the folder with the extension and install it
-6. You can turn off the "Developer mode" option now, extension will continue to work
-7. Pin down the extension in top meny of browser.
+3. Turn on "Developer mode" option
+4. Push "Pack extension" button
+6. Select the folder with the extension and push "Pack extension" button
+7. Drag packed extension (file with .crx extension) in to the browser window
+8. The browser will offer you to install the extension, just install it
+9. You can turn off the "Developer mode" option now, extension will continue to work
+10. Pin down the extension in top meny of the browser.
 
 How to use: 
 1. go to wetv.vip and open any video you want to watch
