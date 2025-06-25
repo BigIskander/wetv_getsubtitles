@@ -1,17 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "WeTV get subtitles",
-    "description": "A simple browser extension to open subtitles page on wetv.vip",
-    "version": "1.0",
-    "action": {
-      "default_icon": "WeTV.png"
-    },
-    "permissions": ["activeTab", "scripting", "webRequest"],
-    "host_permissions": [
-      "https://wetv.vip/*",
-      "https://cffaws.wetvinfo.com/*"
-    ],
-    "background": {
-        "service_worker": "background.js"
+  "manifest_version": 3,
+  "name": "WeTV get subtitles",
+  "description": "A simple browser extension to open subtitles page on wetv.vip",
+  "version": "2.0",
+  "action": {
+    "default_icon": "WeTV.png",
+    "default_title": "WeTV get subtitles",
+    "dafault_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "nativeMessaging"],
+  "host_permissions": [
+    "https://wetv.vip/*",
+    "https://cffaws.wetvinfo.com/*"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://wetv.vip/*/play/*"],
+      "js": ["content.js"]
     }
-  }
+  ]
+}
