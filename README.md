@@ -1,9 +1,7 @@
 # wetv_getsubtitles
-A simple browser extension (for chromium based browsers) to open subtitles page on wetv.vip
+A simple browser extension (for chromium based browsers) to get subtitles on wetv.vip as plain text
 
-Last stable working version is located in v1 branch of this repository. This version is in development and might be broken.
-
-Extension was made only for educational purposes.
+Previous version of this extension is located in v1 branch of this repository
 
 How to install, instruction for Google chrome: 
 1. Download and unpack the content of this repository
@@ -19,4 +17,4 @@ How to install, instruction for Google chrome:
 How to use: 
 1. go to wetv.vip and open any video you want to watch
 2. turn on subtitles you want to read
-3. click on the extensions icon.
+3. click on the extensions icon, text from current subtitle should appear
