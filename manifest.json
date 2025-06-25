@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "WeTV get subtitles",
-  "description": "A simple browser extension to open subtitles page on wetv.vip",
+  "description": "A simple browser extension to get subtitles on wetv.vip as plain text",
   "version": "2.0",
   "action": {
     "default_icon": "WeTV.png",
