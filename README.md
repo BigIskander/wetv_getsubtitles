@@ -11,7 +11,7 @@ How to install, instruction for Google chrome:
 5. Select the folder with the extension
 6. Pin down the extension in top menu of the browser
 
-Due to securite restrictions, in order to use this extension you will need to manually allow developer mode and reload extension every time your open browser.
+Due to security restrictions, in order to use this extension you will need to manually allow developer mode and reload extension every time your open browser.
 
 How to use: 
 1. go to wetv.vip and open any video you want to watch
